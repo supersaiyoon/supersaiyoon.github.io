@@ -1,0 +1,108 @@
+/* General styles */
+body {
+    background-color: #22436C;
+    color: #e7e7e7;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1 {
+    font-family: "Playfair", serif;
+    font-size: 4.0em;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+a:link, a:visited {
+    color: #e7e7e7;
+}
+
+a:hover {
+    color: #f4b942;
+    transition: .9s;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+#profile-pic {
+    border-radius: 20%;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+/* Navigation */
+nav a {  /* Links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;  /* Removes underline */
+    color: white;         /* By default, links are blue */
+}
+
+nav a:hover {  /* Pseudo class */
+    border-bottom: 2px #f4b942 solid;
+    font-size: 1.6em;
+    transition: .9s;  /* Transition effect */
+}
+
+nav a.current-page {  /* Make current page stand out */
+    color: #f4b942;
+}
+
+/* Table */
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: #0e2a4a;;
+}
+
+#table-header {
+    background-color: #5ec8ff;
+}
+
+.table-row {
+    background-color: #2b5687;
+}
+
+/* Unordered list */
+ul {
+    margin: 0px auto;
+    width: 500px;
+    text-align: left;
+}
+
+.hobby {
+    color: #5ec8ff;
+}
+
+/* Google contact form */
+#contact-content {
+    text-align: center;
+}
+
+/* Main layout */
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+footer {
+    font-size: 0.8em;
+    color: #6b92b6;
+}
