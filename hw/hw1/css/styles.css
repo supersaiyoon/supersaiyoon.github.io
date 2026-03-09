@@ -1,0 +1,103 @@
+/* General styles */
+body {
+    background-color: #22436C;
+    color: #e7e7e7;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;  /* <weight>: 100 to 900 */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+header h1 {
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;  /* <weight>: 100 to 800 */
+    font-style: normal;
+    font-size: 2.1em;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #9cc4ff;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #c3dfff;
+}
+
+figure {
+    text-align: center;
+    margin-top: 20px;
+}
+
+figcaption {
+    font-size: 0.8em;
+    color: #9cc4ff;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1b3554;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  color: #ffffff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #355e8a;
+  transition: 0.7s;
+}
+
+nav ul li a.current-page {
+    background-color: #355e8a;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 3px solid #9cc4ff;
+}
+
+/* Main layout */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    filter: drop-shadow(5px 5px 10px #000000)
+}
+
+main a {
+    color: #9cc4ff;
+}
+
+main a:hover {
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    font-size: 0.8em;
+    color: #6b92b6;
+    text-align: center;
+}
