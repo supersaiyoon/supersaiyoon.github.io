@@ -54,16 +54,16 @@ nav ul {
     justify-content: center;
 }
 
-nav ul li a {
-  display: block;
-  color: #ffffff;
-  padding: 14px 16px;
-  text-decoration: none;
+    nav ul li a {
+    display: block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
-  background-color: #355e8a;
-  transition: 0.7s;
+    background-color: #355e8a;
+    transition: 0.7s;
 }
 
 nav ul li a.current-page {
