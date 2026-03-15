@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> Guess a Number </title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Guess the Number!</h1>
+            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+        </header>
+        <br>
+        <div id="main">
+            Enter a guess: 
+            <input type="text" id="playerGuess" size="5">
+            <button id="guessBtn"> Guess </button>
+            <br>
+            <button id="resetBtn"> Reset </button>
+            <div id="feedback"></div>
+            <div>Previous guesses:
+                <span id="guesses"></span>
+            </div>
+            <div id="guessesRemaining"></div>
+            <div id="wins"></div>
+            <div id="losses"></div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
