@@ -119,3 +119,9 @@ h3 img {
     max-width: 24px;
     margin-right: 0.5rem;
 }
+
+footer {
+    text-align: center;
+    margin: 2rem;
+    color: #475569;
+}
